@@ -38,8 +38,8 @@ sonarqube {
     properties {
         property "sonar.sourceEncoding", "UTF-8"
                 property "sonar.projectName", "Gradle-JavaWebApp"
-                property "sonar.host.url", "http://172.31.5.173:9000"
-                property "sonar.login", "e77b35a3aef0312430e20bfc3275b30f2fd0afca"
+                property "sonar.host.url", "http://172.31.52.170:9000"
+                property "sonar.login", "97537712d39915f66047557a967873c06057082b"
     }
 }
 
@@ -54,7 +54,7 @@ publishing {
     }
     repositories {
         maven {
-            url = "http://172.31.51.182:8081/repository/gradle-java-webapp-repository/"
+            url = "http://172.31.56.104:8081/repository/gradle-java-webapp-repository/"
             credentials {
                 username "admin"
                 password "admin"
